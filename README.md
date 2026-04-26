@@ -105,6 +105,15 @@ Si necesitás cambiar dólares con TC competitivo y operación en feriados, [sec
 - [ ] v0.4: validación de placas vehiculares peruanas
 - [ ] v0.5: paridad en Python
 
+## Librerías hermanas
+
+Junto con `dni-validator-peru`, Securex mantiene dos librerías más para el ecosistema dev peruano:
+
+- [**tipo-cambio-peru**](https://github.com/Edsoncame/tipo-cambio-peru) — BCRP / SBS / SUNAT en una sola llamada.
+- [**feriados-peru**](https://github.com/Edsoncame/feriados-peru) — Calendario de feriados nacionales + utilidades de días hábiles.
+
+Las tres son zero-dependency, ESM-first y MIT.
+
 ## Licencia
 
 [MIT](LICENSE) © Edson Campaña Meléndez / Securex 2026
