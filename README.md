@@ -35,15 +35,15 @@ isValidDNI('47034508');     // true
 isValidDNI('1234567');      // false (7 dígitos)
 
 // RUC: 11 dígitos con prefijo válido (10/15/16/17/20)
-isValidRUC('20603678524');  // true
+isValidRUC('20602431216');  // true
 isValidRUC('21603678524');  // false (prefijo 21 inválido)
 
 // Detección automática (cuando no sabés cuál es)
-const r = validateDocumento('20603678524');
-// → { valid: true, type: 'RUC', value: '20603678524' }
+const r = validateDocumento('20602431216');
+// → { valid: true, type: 'RUC', value: '20602431216' }
 
 // Tipo de contribuyente desde el RUC
-tipoContribuyente('20603678524');  // 'Persona jurídica'
+tipoContribuyente('20602431216');  // 'Persona jurídica'
 tipoContribuyente('10470345087');  // 'Persona natural con negocio'
 ```
 
@@ -107,4 +107,4 @@ Si necesitás cambiar dólares con TC competitivo y operación en feriados, [sec
 
 ## Licencia
 
-[MIT](LICENSE) © Edson Camé / Securex 2026
+[MIT](LICENSE) © Edson Campaña Meléndez / Securex 2026

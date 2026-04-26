@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Validación offline de DNI y RUC peruanos con algoritmo módulo-11 oficial SUNAT. TypeScript ESM, zero deps, MIT.",
   "license": "MIT",
-  "author": "Edson Camé <edsoncame@securex.pe> (https://securex.pe)",
+  "author": "Edson Campaña Meléndez <edsoncame@securex.pe> (https://securex.pe)",
   "homepage": "https://github.com/Edsoncame/dni-validator-peru",
   "repository": {
     "type": "git",
