@@ -1,0 +1,54 @@
+{
+  "name": "dni-validator-peru",
+  "version": "0.1.0",
+  "description": "Validación offline de DNI y RUC peruanos con algoritmo módulo-11 oficial SUNAT. TypeScript ESM, zero deps, MIT.",
+  "license": "MIT",
+  "author": "Edson Camé <edsoncame@securex.pe> (https://securex.pe)",
+  "homepage": "https://github.com/Edsoncame/dni-validator-peru",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Edsoncame/dni-validator-peru.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Edsoncame/dni-validator-peru/issues"
+  },
+  "keywords": [
+    "peru",
+    "dni",
+    "ruc",
+    "sunat",
+    "reniec",
+    "validation",
+    "checksum",
+    "fintech",
+    "kyc"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx --test src/index.test.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
